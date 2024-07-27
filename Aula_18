@@ -9,7 +9,7 @@
     <h1>Exemplo PHP</h1>
 
     <?php 
-    //date_default_timezone_set("America/Sao_Paulo");
+    date_default_timezone_set("America/Sao_Paulo");
     echo "Hoje é  " .  date ("d/M/Y");
     echo " hora de agora é " . date("G:i:s ");
     ?>
